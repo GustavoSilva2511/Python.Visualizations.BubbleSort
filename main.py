@@ -121,4 +121,5 @@ while is_running:
 
     #setting fps of visualization
     pygame.time.Clock().tick(speed_slider.get_value())
+    #updating pygame screen
     pygame.display.update()
